@@ -8,9 +8,7 @@ using namespace std;
 int main() {
 
 	cout << "\n Welcome to client socket app";
-	/*
-	* Initialise the windows socket library.
-	*/
+
 	WSADATA wsaData;
 	if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
 		cerr << "\n FAILED : WSAStartup failed.";
